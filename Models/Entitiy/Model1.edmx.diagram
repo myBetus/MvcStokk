@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8a5a2323efd4a9a92319b5555c6ac96" Name="Diagram1" ZoomLevel="113">
+        <EntityTypeShape EntityType="MvcDbStokModel.Kategori" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcDbStokModel.Musteri" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcDbStokModel.Satis" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcDbStokModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MvcDbStokModel.Urun" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="MvcDbStokModel.FK_Urun_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="MvcDbStokModel.FK_Satis_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="MvcDbStokModel.FK_Satis_Urun" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
